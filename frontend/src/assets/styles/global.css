@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto-v20-latin-regular.woff") format("woff"),
+      url("../fonts/roboto-v20-latin-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  }
+  
+  .background {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-color: #0e1114;
+  }
+  
+  #app {
+    
+    font-family: "Roboto";
+    width: max(25rem, min(70vw, 35rem));
+
+
+  }
+  
+  .home-options {
+
+    letter-spacing: 1px;
+    width: 100%;
+    background-color: #0e1114;
+  }
+  
+  .logo {
+ 
+    color: #de3c4b;
+    text-decoration: none;
+    font-size: 3.5em;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: #2e86ab 3px 2px 0;
+    position: relative;
+  }
+
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #28282bf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    width: max(25rem, min(70vw, 35rem));
+    max-height: 65vh;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    border-radius: min(1vmin, 5px);
+    background-color: #0e1114;
+    color: #d1d1d1;
+  }
+  .modal::-webkit-scrollbar {
+    display: none;
+  }
+
+  .modal-option {
+    margin-left: 6%;
+    margin-right: 6%;
+    height: max(60px, min(10vh, 75px));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    border-top-width: 1.2px;
+    border-top-color: #1b1b1b;
+    border-top-style: solid;
+  }
+  .text {
+    letter-spacing: 1px;
+    height: max(18px, min(3.5vmin, 22px));
+    font-size: max(18px, min(3.5vmin, 22px));
+  }

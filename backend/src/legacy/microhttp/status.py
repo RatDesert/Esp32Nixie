@@ -1,0 +1,3 @@
+OK_200 = '200 OK'
+CREATED_201 = '201 Created'
+ACCEPTED_202 = '202 Accepted'
